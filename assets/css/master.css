@@ -12,19 +12,38 @@ body{
 
 #title{
   color: #ffffff;
+  font-family: Concert One;
+  font-size: 80px;
   margin-top: 30px;
   margin-left: 40px;
   text-align: center;
 }
 
-[class^="card"]{
+.card{
   background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  background-size: contain;
+
   border: 1px solid black;
   height: 200px;
   width: 175px;
   margin-left: 40px;
   border-radius: 15px;
   display: inline-block;
+}
+
+#card-face{
+  background-image: url("../img/noun_air_balloon_3134741.png");
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+#card-face > p{
+  position: relative;
+  top: 160px;
+  color: #ff0aff;
+  font-family: Concert One;
+  font-size: 30px;
 }
 
 .row{
@@ -34,6 +53,7 @@ body{
 
 footer{
   text-align: center;
+  font-family: Concert One;
   margin-left: 40px;
   margin-top: 40px;
 }
