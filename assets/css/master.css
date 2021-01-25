@@ -36,14 +36,17 @@ body{
   background-image: url("../img/noun_air_balloon_3134741.png");
   background-repeat: no-repeat;
   background-color: #ffffff;
+  position: relative;
 }
 
 #card-face > p{
   position: relative;
   top: 160px;
-  color: #ff0aff;
+  left: 20px;
+  color: #ff007b;
   font-family: Concert One;
   font-size: 30px;
+  position: absolute;
 }
 
 .row{
