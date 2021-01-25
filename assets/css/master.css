@@ -16,35 +16,23 @@ body{
   text-align: center;
 }
 
-.row-1{
-  position: relative;
-}
-
-.row-1 .card{
+[class^="card"]{
+  background-image: url("../img/pattern.png");
+  border: 1px solid black;
   height: 200px;
-  width: 160px;
-  background-color: red;
+  width: 175px;
+  margin-left: 40px;
+  border-radius: 15px;
   display: inline-block;
 }
 
-.row-2{
-  position: relative;
+.row{
+  margin-top: 40px;
+  text-align: center;
 }
 
-.row-2 .card{
-  height: 200px;
-  width: 160px;
-  background-color: blue;
-  display: inline-block;
-}
-
-.row-3{
-  position: relative;
-}
-
-.row-3 .card{
-  height: 200px;
-  width: 160px;
-  background-color: yellow;
-  display: inline-block;
+footer{
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 40px;
 }
