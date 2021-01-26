@@ -23,14 +23,17 @@ body{
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
   background-size: contain;
+  background-color: #ffffff;
 
   border: 1px solid black;
   height: 200px;
   width: 175px;
   margin-left: 40px;
   border-radius: 15px;
+  position: relative;
   display: inline-block;
   overflow: hidden;
+  cursor: pointer;
 }
 
 #card-face{
@@ -46,7 +49,7 @@ body{
 
   color: #ff007b;
   font-family: Concert One;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .row{
@@ -54,10 +57,32 @@ body{
   text-align: center;
 }
 
+.card-text{
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
+  color: #ff9d00;
+  font-family: Concert One;
+  font-size: 25px;
+  display: none;
+}
 
+.card img{
+  width: 100%;
+  visibility: hidden;
+}
 
+.card:hover img{
+  visibility: visible;
+}
 
+.card:hover{
+  background-image: none;
+}
 
+.card:hover .card-text{
+  display: block;
+}
 
 footer{
   text-align: center;
